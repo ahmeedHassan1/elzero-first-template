@@ -231,7 +231,7 @@ body {
     width: 100px;
     height: calc(100% + 100px);
     top: -50px;
-    right: 0;
+    right: 15px;
     z-index: -1;
 
 }
