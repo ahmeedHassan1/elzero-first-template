@@ -16,6 +16,9 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Work Sans", sans-serif;
 }
@@ -389,3 +392,17 @@ body {
     }
 }
 /* End contact */
+
+/* Start footer */
+.footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.footer span {
+    font-weight: bold;
+    color: var(--main-color);
+}
+/* End footer */
